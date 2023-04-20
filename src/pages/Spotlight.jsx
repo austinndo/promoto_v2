@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import Nav from "../components/Nav"
-import songs_data from 'data/songs.json'
+// import data from './data/songs.json'
 
 const Spotlight = () => {
 
@@ -9,10 +9,10 @@ const Spotlight = () => {
 
   useEffect(() => {
     const getSongs = async () => {
-      console.log(songs_data)
-      const songs = await axios.get('http://localhost:3001/songs')
+      console.log('data here')
+      // const songs = await axios.get('http://localhost:3001/songs')
       
-      setSongs(songs.data.songs)
+      // setSongs(songs.data.songs)
     }
     getSongs()
   }, [])

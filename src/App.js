@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/App.css'
 import { Routes, Route } from 'react-router-dom'
 import Landing from './pages/Landing'
 import Signup from './pages/Signup'
@@ -20,7 +20,7 @@ function App() {
     <div className="Promoto">
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/promoto/signup" element={<Signup />} />
+        {/* <Route path="/promoto/signup" element={<Signup />} />
         <Route path="/promoto" element={<Home />} />
         <Route path="/promoto/search" element={<Search />} />
         <Route path="/promoto/search/songs" element={<SearchSongs />} />
@@ -32,7 +32,7 @@ function App() {
         <Route path="/promoto/edit/song" element={<EditSongPage />} />
         <Route path="/promoto/edit/post" element={<EditPostPage />} />
         <Route path="/promoto/delete/song" element={<DeleteSongPage />} />
-        <Route path="/promoto/delete/post" element={<DeletePostPage />} />
+        <Route path="/promoto/delete/post" element={<DeletePostPage />} /> */}
       </Routes>
     </div>
   )

@@ -67,7 +67,7 @@ const Signup = () => {
           <input type="password" onChange={handleChange} name={'password'} placeholder={'*password'} required/> <br></br>
           <input type="text" onChange={handleChange} name={'favoriteGenres'} placeholder={'Favorite Genre(s)'} /> <br></br>
           <p> * indicates a required field</p> <br></br>
-          <button onClick={addUser}>Signup</button>
+          <button>Signup</button>
           </form>
         </div>
     </div>

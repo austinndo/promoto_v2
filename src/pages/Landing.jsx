@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
 import "../styles/App.css"
+import songs_data from '../data/songs.json'
 
 const Landing = () => {
+
+  console.log(songs_data)
   
   return (
     <div className="landingPage">
