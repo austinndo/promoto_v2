@@ -1,0 +1,79 @@
+[
+  {
+    "_id": "634755c1b31c1c61af9fd7eb",
+    "name": "Marian D Santos",
+    "email": "lorenza.casp@yahoo.com",
+    "username": "stevieee",
+    "password": "Kenny",
+    "favoriteGenres": ["Rock", "Soft Rock"],
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.107Z",
+    "updatedAt": "2022-10-13T00:03:13.107Z"
+  },
+  {
+    "_id": "634755c1b31c1c61af9fd7ed",
+    "name": "Eugene J Legge",
+    "email": "dedric1988@hotmail.com",
+    "username": "puprock",
+    "password": "Presson",
+    "favoriteGenres": ["Hard Rock", "Rock", "Glam Metal"],
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.107Z",
+    "updatedAt": "2022-10-13T00:03:13.107Z"
+  },
+  {
+    "_id": "634755c1b31c1c61af9fd7e9",
+    "name": "Vivian S Crawford",
+    "email": "pablo_haa2@yahoo.com",
+    "username": "pablo_haa2",
+    "password": "Gardner",
+    "favoriteGenres": ["Rock", "Classic Rock"],
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.106Z",
+    "updatedAt": "2022-10-13T00:03:13.106Z"
+  },
+  {
+    "_id": "634755c1b31c1c61af9fd7ec",
+    "name": "Brett R Nichols",
+    "email": "chanel2007@gmail.com",
+    "username": "yellowstonebear",
+    "password": "Vela",
+    "favoriteGenres": ["Cartoon", "Movie Tunes"],
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.107Z",
+    "updatedAt": "2022-10-13T00:03:13.107Z"
+  },
+  {
+    "_id": "634755c1b31c1c61af9fd7ef",
+    "name": "John K Barnes",
+    "email": "roy2001@yahoo.com",
+    "username": "okstop",
+    "password": "Evans",
+    "favoriteGenres": ["Alt Rock", "Pop Rock", "Indie Rock"],
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.107Z",
+    "updatedAt": "2022-10-13T00:03:13.107Z"
+  },
+  {
+    "_id": "634755c1b31c1c61af9fd7ee",
+    "name": "Tracy Jordan",
+    "email": "grizzdotcom@gmail.com",
+    "username": "tracyjordan",
+    "password": "Jeremy",
+    "favoriteGenres": ["Pop", "R&B"],
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.107Z",
+    "updatedAt": "2022-10-13T00:03:13.107Z"
+  },
+  {
+    "_id": "634755c1b31c1c61af9fd7ea",
+    "name": "Awilda T Lass",
+    "email": "cristina1978@hotmail.com",
+    "username": "mjbfan",
+    "password": "Green",
+    "favoriteGenres": ["R&B", "Hip Pop"],
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.107Z",
+    "updatedAt": "2022-10-13T00:03:13.107Z"
+  }
+]
