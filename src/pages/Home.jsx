@@ -1,19 +1,21 @@
-import { useState, useEffect } from 'react'
-import axios from 'axios'
+// import { useState, useEffect } from 'react'
+// import axios from 'axios'
 import Nav from "../components/Nav"
-import Posts from '../components/Posts'
+import Posts from '../components/PostsFromJSON'
 
 const Home = () => {
 
-  const [posts, setPosts] = useState([])
+  // const [posts, setPosts] = useState([])
 
-  useEffect(() => {
-    const getPosts = async () => {
-      const posts = await axios.get('http://localhost:3001/posts')
-      setPosts(posts.data.posts.reverse())
-    }
-    getPosts()
-  }, [])
+  // useEffect(() => {
+  //   // const getPosts = async () => {
+  //   //   const posts = await axios.get('http://localhost:3001/posts')
+  //   //   setPosts(posts.data.posts.reverse())
+  //   // }
+
+  //   const getPosts = 
+  //   getPosts()
+  // }, [])
 
   return (
 
@@ -23,7 +25,8 @@ const Home = () => {
       </div>
       
       <div className="homePagePosts">
-        < Posts posts={posts}/>
+        < Posts />
+        {/* < Posts posts={posts}/> */}
       </div>
     </div>
   )

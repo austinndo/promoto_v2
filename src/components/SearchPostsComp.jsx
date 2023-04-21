@@ -1,12 +1,8 @@
-const SearchPostsComp = (props) => {
+import posts_data from '../data/posts.json'
 
-  if(!props.posts) {
-    return <h2> Posts are late to the gig... </h2>
-  }
-
-  else return (
+const SearchPostsComp = (
     <div className="searchPostsContainer">
-      {props.posts.map((post) => (
+      {posts_data.map((post) => (
       <div key={post._id} className="searchPostsContainerContent">
       <img className="searchPostContainerImage" src={post.image} alt="post-content"/>
       <div className="searchPostContainerUsernameLikes">
@@ -17,6 +13,6 @@ const SearchPostsComp = (props) => {
       </div>))}
     </div>
   )
-}
+
 
 export default SearchPostsComp

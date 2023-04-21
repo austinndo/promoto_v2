@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import Songs from '../../components/Songs'
+import Songs from '../../components/SongsFromJSON'
 import SearchedNav from '../../components/SearchedNav'
 
 

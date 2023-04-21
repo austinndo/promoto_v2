@@ -1,12 +1,9 @@
-const Songs = (props) => {
+import songs_data from '../data/songs.json'
 
-  if(!props.songs) {
-    return <h2> Preparing the setlist... </h2>
-  }
-
-  else return (
+const Songs = () => { 
+  return (
     <div className="songsContainer">
-        {props.songs.map((song) => (
+        {songs_data.map((song) => (
         <div key={song.id} className="songsContainerContent">
         <img className="songContainerCover" src={song.cover} alt="album-cover"/>
         <h2>"{song.name}"</h2>
