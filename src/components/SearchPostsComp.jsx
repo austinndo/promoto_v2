@@ -1,6 +1,6 @@
 import posts_data from '../data/posts.json'
 
-const SearchPostsComp = (
+const SearchPostsComp = () => { return (
     <div className="searchPostsContainer">
       {posts_data.map((post) => (
       <div key={post._id} className="searchPostsContainerContent">
@@ -12,7 +12,7 @@ const SearchPostsComp = (
       <h5 className="searchPostDescription">{post.description}</h5>
       </div>))}
     </div>
-  )
+  ) }
 
 
 export default SearchPostsComp
