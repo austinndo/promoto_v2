@@ -12,7 +12,8 @@ const Nav = () => {
         <Link to="/promoto/search" alt="Search" className='navLink'><i class="fa fa-search fa-2x" aria-hidden="true"></i></Link>
         <Link to="/promoto/spotlight" alt="Spotlight" className='navLink'><i class="fa fa-calendar fa-2x" aria-hidden="true"></i></Link>
         <Link to="/promoto/add" alt="Add/Create" className='navLink'><i class="fa fa-plus-square fa-2x" aria-hidden="true"></i></Link>
-        <Link to="/promoto/edit" alt="Edit" className='navLink'><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></Link>
+        <Link alt="Edit" className='tempDisabled'><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></Link>
+        {/* <Link to="/promoto/edit" alt="Edit" className='navLink'><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></Link> */}
       </div>
     </div>
   )

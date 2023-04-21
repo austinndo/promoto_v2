@@ -19,7 +19,7 @@ const Posts = () => {
       </i></h5> */}
       </div>
       <h5 className="postDescription">{post.description}</h5>
-      <button style={{cursor:"pointer"}} className="deletePostButton" >Delete</button>
+      {/* <button style={{cursor:"pointer"}} className="deletePostButton" >Delete</button> */}
       {/* <button style={{cursor:"pointer"}} className="deletePostButton" onClick={async () => {
             await axios({
             method: 'delete',

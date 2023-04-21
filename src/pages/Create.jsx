@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import Nav from "../components/Nav"
 
@@ -136,7 +136,7 @@ const Create = () => {
           <input type="text" onChange={handleChangeSong} name={'cover'} placeholder={'*cover art'} required/> <br></br>
           <input type="text" onChange={handleChangeSong} name={'genre'} placeholder={'*genre'} required/> <br></br>
           <p> * indicates a required field</p>
-          <button>Submit</button>
+          <button className="tempDisabled">Submit</button>
           {/* <button onClick={addSong} >Submit</button> */}
           </form>
         </div>
@@ -152,7 +152,7 @@ const Create = () => {
           <input type="text" onChange={handleChangePost} name={'image'} placeholder={'*image source'} required/> <br></br>
           <input type="text-area" onChange={handleChangePost} name={'description'} placeholder={'description'} /> <br></br>
           <p> * indicates a required field</p>
-          <button>Submit</button>
+          <button className="tempDisabled">Submit</button>
           {/* <button onClick={addPost}>Submit</button> */}
           </form>
           </div>

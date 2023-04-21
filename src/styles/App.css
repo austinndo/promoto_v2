@@ -72,6 +72,10 @@
   color: rgb(72, 21, 119);
 }
 
+.tempDisabled {
+  color: red
+}
+
 .searchNavbar {
   justify-content: space-between;
   align-items: center;
