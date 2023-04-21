@@ -51,16 +51,25 @@ const Signup = () => {
 //     navigate('/promoto/search/users')
 // }
 
-  const handleChange = (e) => {
-    setNewUser({ ...newUser, [e.target.name]: e.target.value })
-  }
+  // const handleChange = (e) => {
+  //   setNewUser({ ...newUser, [e.target.name]: e.target.value })
+  // }
 
   return (
     <div className="signupPage">
       <Link to="/">Back to Login</Link>
         <div className="signup">
         <h1>Account Details</h1>
-          <form>
+        <form>
+          <input type="text" name={'name'} placeholder={'*name'} required/> <br></br>
+          <input type="text" name={'email'} placeholder={'*email'} required/> <br></br>
+          <input type="text" name={'username'} placeholder={'*username'} required/> <br></br>
+          <input type="password" name={'password'} placeholder={'*password'} required/> <br></br>
+          <input type="text"  name={'favoriteGenres'} placeholder={'Favorite Genre(s)'} /> <br></br>
+          <p> * indicates a required field</p> <br></br>
+          <button>Signup</button>
+          </form>
+          {/* <form>
           <input type="text" onChange={handleChange} name={'name'} placeholder={'*name'} required/> <br></br>
           <input type="text" onChange={handleChange} name={'email'} placeholder={'*email'} required/> <br></br>
           <input type="text" onChange={handleChange} name={'username'} placeholder={'*username'} required/> <br></br>
@@ -68,7 +77,7 @@ const Signup = () => {
           <input type="text" onChange={handleChange} name={'favoriteGenres'} placeholder={'Favorite Genre(s)'} /> <br></br>
           <p> * indicates a required field</p> <br></br>
           <button>Signup</button>
-          </form>
+          </form> */}
         </div>
     </div>
   )

@@ -110,14 +110,14 @@ const Create = () => {
 
   //------------------------ Form handlers ------------------------//
 
-  const handleChangeSong = (e) => {
-    setNewSong({ ...newSong, [e.target.name]: e.target.value })
-    console.log(newSong)
-  }
+  // const handleChangeSong = (e) => {
+  //   setNewSong({ ...newSong, [e.target.name]: e.target.value })
+  //   console.log(newSong)
+  // }
 
-  const handleChangePost = (e) => {
-    setNewPost({ ...newPost, [e.target.name]: e.target.value })
-  }
+  // const handleChangePost = (e) => {
+  //   setNewPost({ ...newPost, [e.target.name]: e.target.value })
+  // }
 
   // const nextSongId = songs_data.length + 1
 
@@ -128,7 +128,19 @@ const Create = () => {
       </div>
       <div className="createFormContainers">
         <div className="addSongContainer">
-        <h1>Add Song #{nextSongId}</h1>
+        <h1>Add Song #?</h1>
+        {/* <h1>Add Song #{nextSongId}</h1> */}
+          <form className="addSongForm">
+          <input type="number" name={'id'} placeholder={'*song number, copy from above!'} required/> <br></br>
+          <input type="text" name={'name'} placeholder={'*name'} required/> <br></br>
+          <input type="text" name={'artist'} placeholder={'*artist'} required/> <br></br>
+          <input type="text" name={'cover'} placeholder={'*cover art'} required/> <br></br>
+          <input type="text" name={'genre'} placeholder={'*genre'} required/> <br></br>
+          <p> * indicates a required field</p>
+          <button className="tempDisabled">Submit</button>
+          {/* <button onClick={addSong} >Submit</button> */}
+          </form>
+        {/* <h1>Add Song #{nextSongId}</h1>
           <form className="addSongForm">
           <input type="number" onChange={handleChangeSong} name={'id'} placeholder={'*song number, copy from above!'} required/> <br></br>
           <input type="text" onChange={handleChangeSong} name={'name'} placeholder={'*name'} required/> <br></br>
@@ -138,12 +150,24 @@ const Create = () => {
           <p> * indicates a required field</p>
           <button className="tempDisabled">Submit</button>
           {/* <button onClick={addSong} >Submit</button> */}
-          </form>
+          {/* </form> */}
         </div>
 
         <div className="createPostContainer">
           <div className="createPostTitle">
-            <h1>Create a new post</h1>
+          <h1>Create a new post</h1>
+          </div>
+          <form className="createPostForm">
+          <input type="number" name={'songId'} placeholder={'*song id'} required/> <br></br>
+          <input type="text" name={'username'} placeholder={'*username'} required/> <br></br>
+          <input type="text"  name={'title'} placeholder={'*title'} required/> <br></br>
+          <input type="text"  name={'image'} placeholder={'*image source'} required/> <br></br>
+          <input type="text-area"  name={'description'} placeholder={'description'} /> <br></br>
+          <p> * indicates a required field</p>
+          <button className="tempDisabled">Submit</button>
+          {/* <button onClick={addPost}>Submit</button> */}
+          </form>
+            {/* <h1>Create a new post</h1>
           </div>
           <form className="createPostForm">
           <input type="number" onChange={handleChangePost} name={'songId'} placeholder={'*song id'} required/> <br></br>
@@ -154,7 +178,7 @@ const Create = () => {
           <p> * indicates a required field</p>
           <button className="tempDisabled">Submit</button>
           {/* <button onClick={addPost}>Submit</button> */}
-          </form>
+          {/* </form> */} 
           </div>
         </div>
     </div>
