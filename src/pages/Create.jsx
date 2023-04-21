@@ -1,35 +1,35 @@
-import { useNavigate } from "react-router-dom"
+// import { useNavigate } from "react-router-dom"
 // import { Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+// import { useState } from 'react'
 import Nav from "../components/Nav"
 
 const Create = () => {
   
-  let navigate = useNavigate()
+  // let navigate = useNavigate()
 
   //------------------------ Set state ------------------------//
 
-  const [songs, setSongs] = useState([])
-  const [newSong, setNewSong] = useState({
-    id: 0,
-    name: '',
-    artist: '',
-    genre: [''],
-    cover: '',
-    posts: ['']
-  })
+  // const [songs, setSongs] = useState([])
+  // const [newSong, setNewSong] = useState({
+  //   id: 0,
+  //   name: '',
+  //   artist: '',
+  //   genre: [''],
+  //   cover: '',
+  //   posts: ['']
+  // })
 
-  const [posts, setPosts] = useState([])
-  const [newPost, setNewPost] = useState({
-      songId: '',
-      username: '',
-      title: '',
-      image:
-        '',
-      description:
-        '',
-      likes: 0
-  })
+  // const [posts, setPosts] = useState([])
+  // const [newPost, setNewPost] = useState({
+  //     songId: '',
+  //     username: '',
+  //     title: '',
+  //     image:
+  //       '',
+  //     description:
+  //       '',
+  //     likes: 0
+  // })
 
   // useEffect(() => {
   //   const getPosts = async () => {
@@ -119,7 +119,7 @@ const Create = () => {
     setNewPost({ ...newPost, [e.target.name]: e.target.value })
   }
 
-  const nextSongId = songs.length + 1
+  // const nextSongId = songs_data.length + 1
 
   return (
     <div className="Create">

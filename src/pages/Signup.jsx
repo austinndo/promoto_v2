@@ -1,20 +1,20 @@
-import { useNavigate } from "react-router-dom"
+// import { useNavigate } from "react-router-dom"
 import { Link } from "react-router-dom"
-import { useState, useEffect } from 'react'
-import axios from "axios"
+// import { useState, useEffect } from 'react'
+// import axios from "axios"
 
 const Signup = () => {
   
-  let navigate = useNavigate()
+  // let navigate = useNavigate()
 
-  const [users, setUsers] = useState([])
-  const [newUser, setNewUser] = useState({
-      name:'',
-      email:'',
-      username:'',
-      password:'',
-      favoriteGenres: ['']
-    })
+  // const [users, setUsers] = useState([])
+  // const [newUser, setNewUser] = useState({
+  //     name:'',
+  //     email:'',
+  //     username:'',
+  //     password:'',
+  //     favoriteGenres: ['']
+  //   })
   
   // useEffect(() => {
   //   const getUsers = async () => {
