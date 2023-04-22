@@ -1,17 +1,5 @@
 [
   {
-    "_id": "634755c1b31c1c61af9fd7e7",
-    "songId": 6,
-    "username": "okstop",
-    "title": "Here I Go Again...",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZdDqHRgEqt3_4cfWGW8MspbUtaklgYb3cg&usqp=CAU",
-    "description": "Would not recommend trying to recreate the music video at home...",
-    "likes": 0,
-    "__v": 0,
-    "createdAt": "2022-10-13T00:03:13.054Z",
-    "updatedAt": "2022-10-13T00:03:13.054Z"
-  },
-  {
     "_id": "634755c1b31c1c61af9fd7e3",
     "songId": 2,
     "username": "stevieee",
@@ -30,18 +18,6 @@
     "title": "Rockin out with Orpheus",
     "image": "https://media.gettyimages.com/photos/playing-guitar-to-dog-picture-id1215014948?s=2048x2048",
     "description": "This is MY sweet child listening to me play some tunes in the living room. Starting to think he loves music more than I do!",
-    "likes": 0,
-    "__v": 0,
-    "createdAt": "2022-10-13T00:03:13.054Z",
-    "updatedAt": "2022-10-13T00:03:13.054Z"
-  },
-  {
-    "_id": "634755c1b31c1c61af9fd7e4",
-    "songId": 3,
-    "username": "yellowstonebear",
-    "title": "Double Rainbow!",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMavwmWEvr19Cv6TOWmQIuBVNUOjvdv9IQjw&usqp=CAU",
-    "description": "This must be what Kermit meant by the Rainbow Connection. Double rainbow all the way!",
     "likes": 0,
     "__v": 0,
     "createdAt": "2022-10-13T00:03:13.054Z",
@@ -70,5 +46,29 @@
     "__v": 0,
     "createdAt": "2022-10-13T00:03:13.054Z",
     "updatedAt": "2022-10-13T00:11:38.833Z"
+  },
+  {
+    "_id": "634755c1b31c1c61af9fd7e4",
+    "songId": 3,
+    "username": "yellowstonebear",
+    "title": "Double Rainbow!",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMavwmWEvr19Cv6TOWmQIuBVNUOjvdv9IQjw&usqp=CAU",
+    "description": "This must be what Kermit meant by the Rainbow Connection. Double rainbow all the way!",
+    "likes": 0,
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.054Z",
+    "updatedAt": "2022-10-13T00:03:13.054Z"
+  },
+  {
+    "_id": "634755c1b31c1c61af9fd7e7",
+    "songId": 6,
+    "username": "okstop",
+    "title": "Here I Go Again...",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZdDqHRgEqt3_4cfWGW8MspbUtaklgYb3cg&usqp=CAU",
+    "description": "Would not recommend trying to recreate the music video at home...",
+    "likes": 0,
+    "__v": 0,
+    "createdAt": "2022-10-13T00:03:13.054Z",
+    "updatedAt": "2022-10-13T00:03:13.054Z"
   }
 ]
