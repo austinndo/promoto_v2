@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import "../styles/App.css"
 
+// Skipping this page for demo site
+
 const Landing = () => {
   return (
     <div className="landingPage">
