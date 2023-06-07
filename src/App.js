@@ -19,9 +19,9 @@ function App() {
   return (
     <div className="Promoto">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/promoto/signup" element={<Signup />} />
-        {/* <Route path="/promoto" element={<Home />} /> */}
+        <Route path="/promoto" element={<Home />} />
         <Route path="/promoto/search" element={<Search />} />
         <Route path="/promoto/search/songs" element={<SearchSongs />} />
         <Route path="/promoto/search/posts" element={<SearchPosts />} />
