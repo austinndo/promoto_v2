@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Promoto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Date: 7/24/2022
 
-## Available Scripts
+### By: Austin Do
 
-In the project directory, you can run:
+#### **[LinkedIn](https://www.linkedin.com/in/austin-do/) | [GitHub](https://github.com/austinndo) | [Kaggle](https://www.kaggle.com/austindo)**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **_Description_**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Demo site for Promoto. Heroku no longer supports free deploys, switched to Netlify!
 
-### `npm test`
+### Full-stack MERN app that allows users to share and post their own content about their favorite artist, genre, or song.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### See the site here: [Promoto](https://promoto2.netlify.app/)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **_Technologies_**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- MongoDB / Mongoose
+- Express / Node.js
+- React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **_Project Development_**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### [Trello](https://trello.com/invite/b/C5WnHRWw/0e369414cd57d38893995b2877c4b12e/promoto)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### [Wireframe](https://wireframe.cc/Hyra9u)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Wireframe](README_assets/wireframe.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### [ERD](https://drive.google.com/file/d/1GZttuTBhEKmNavor16SxlhXQMraRVypQ/view?usp=sharing)
 
-## Learn More
+## ![ERD](README_assets/erd.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## **_Images_**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Landing Page
 
-### Code Splitting
+![Landing Page](README_assets/landing-page.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Homepage Post Example
 
-### Analyzing the Bundle Size
+![Homepage](README_assets/homepage-post.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Create Forms
 
-### Making a Progressive Web App
+![Create Forms](README_assets/create-forms.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## **_Future Updates_**
 
-### Advanced Configuration
+<ul>
+<li> Set up user authentication
+<li> Have likes and updates appear in realtime
+<li> Incorporate media/audio players
+<li> Edit song and post schema to connect post ids to songs
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## **_Credits_**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 1. Images: [DuckDuckGo Search](https://duckduckgo.com/)
 
-### `npm run build` fails to minify
+### 2. Genre Finder and Album Covers: [Chosic](https://www.chosic.com/music-genre-finder/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3. Update Array in a MongoDB Collection: [MongoDB](https://www.mongodb.com/docs/v4.2/reference/operator/update/push/)
