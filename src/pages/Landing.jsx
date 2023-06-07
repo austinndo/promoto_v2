@@ -6,14 +6,14 @@ const Landing = () => {
     <div className="landingPage">
       <div className="landingPageContainer">
         <div className="landingPageTitle">
-        <h1>Promoto</h1>
+          <h1>Promoto</h1>
         </div>
-        <div className="login"> 
+        <div className="login">
           <h3>Login</h3>
           <form>
-          <input type="text" name={'username'} placeholder={'username'} />
-          <input type="password" name={'password'} placeholder={'password'} />
-          <button><Link to="/promoto"><i class="fa fa-play"></i></Link></button>
+            <input type="text" name={'username'} placeholder={'username'} />
+            <input type="password" name={'password'} placeholder={'password'} />
+            <button><Link to="/promoto"><i class="fa fa-play"></i></Link></button>
           </form>
         </div>
 
